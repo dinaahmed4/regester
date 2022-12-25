@@ -1,0 +1,162 @@
+body {
+    font-family: cursive;
+}
+
+
+/* start header section  */
+.header {
+    background-image: url(picture.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+/* start nav bar section  */
+nav {
+
+    width: 60%;
+    margin: auto;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: cursive;
+    color: white;
+}
+
+.header img {
+    width: 180px;
+    height: 120px;
+
+}
+
+@media only screen and (max-width:768px) {
+    nav {
+        width: 78%;
+        height: auto;
+    }
+}
+
+
+/* End nav bar section  */
+
+.box-header {
+    background-color: rgba(9, 163, 163, 0.356);
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    max-width: 45%;
+    transition: all .5s linear;
+}
+
+.box-header:hover {
+    background-color: rgba(9, 163, 163, 0.87);
+    cursor: pointer;
+}
+
+
+.box-header h2 {
+    font-size: 49px;
+    padding: 34px;
+    color: white;
+    font-weight: 300;
+    font-family: cursive;
+    line-height: 1.5;
+
+}
+
+@media only screen and (max-width:992px) {
+    .box-header h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .box-header h2 {
+        font-size: 20px;
+    }
+}
+
+/* End header section  */
+
+/* start clinic section  */
+.clinic img {
+    width: 80%;
+
+}
+
+.clinic hr {
+    width: 200px;
+    height: 3px;
+    background-color: rgb(238, 134, 16);
+    margin-bottom: 30px;
+}
+
+/* End clinic section  */
+
+/* start medical section  */
+
+.medical {
+    background: url(picv.png), url(picv2.png);
+    height: 700px;
+    background-size: cover;
+
+}
+
+.medical h2 {
+    font-size: 49px;
+    padding: 34px;
+    color: white;
+    font-weight: 300;
+    font-family: cursive;
+    line-height: 1.5;
+
+}
+
+.rounded {
+    border-radius: 20px !important;
+}
+
+@media only screen and (max-width:768px) {
+    .medical {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .medical h2 {
+        padding-top: 70px;
+    }
+}
+
+/* End medical section  */
+
+/* Start social section  */
+.social {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.social img {
+    height: 80px;
+    width: 200px;
+}
+
+/* End social section  */
+
+/* start footer section  */
+
+.footer {
+    background: url(footer.png);
+    height: 300px;
+    background-size: cover;
+    border-radius: 100px 100px 0px 0px;
+    color: white;
+}
+
+.column {
+    margin-top: 80px;
+}
+
+/* End footer section  */
